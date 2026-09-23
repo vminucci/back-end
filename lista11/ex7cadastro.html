@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Spotify</title>
+    <link rel="stylesheet" href="ex7.css">
+</head>
+<body>
+    <div class="meio">
+        <img src="logo.webp" width="200px" alt="Logo Spotify">
+        <h1>Cadastro</h1>
+        
+        <form action="ex7_salvar_cadastro.php" method="post">
+            <label>Nome Completo</label>
+            <br>
+            <input type="text" name="nome" required>
+            <br><br>
+
+            <label>E-mail</label>
+            <br>
+            <input type="email" name="email" required>
+            <br><br>
+
+            <label>Data de nascimento</label>
+            <br>
+            <input type="date" name="nascimento" required>
+            <br><br>
+
+
+
+            <button type="submit">CADASTRAR</button>
+            <br>
+            <a href="ex7.html">Faça login</a>
+        </form>
+    </div>
+</body>
+</html>
